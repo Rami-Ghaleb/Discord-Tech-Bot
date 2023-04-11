@@ -4,10 +4,11 @@ import praw
 import requests
 from bs4 import BeautifulSoup
 
-# Input Discord bot token, Reddit client ID, and client secret
-DISCORD_BOT_TOKEN = 'MTA5NTAzMTcxNzY5OTUzODk4NA.GcrzZQ.FeB9Kxl9NMa0RxVme0SdsH8mlD5KpMeS6UrD5M'
-REDDIT_CLIENT_ID = 'jl64wYpAxB8pN3NbpdS2zA'
-REDDIT_CLIENT_SECRET = 'mTqljIKqoKvlNq-1fNGHiFdWcQR4XA'
+#replace placeholders with your credentials
+DISCORD_BOT_TOKEN = "your_discord_bot_token_here"
+REDDIT_CLIENT_ID = "your_reddit_client_id_here"
+REDDIT_SECRET = "your_reddit_client_secret_here"
+
 
 # Define the intents
 intents = discord.Intents.default()
